@@ -162,6 +162,11 @@ public class FastdfsController {
 	public String testGitUpdate() {
 		return "this is a test.";
 	}
+	
+	@GetMapping("/testgit2")
+	public String testGitUpdate2() {
+		return "this is a test222222222222222222222.";
+	}
 }
 
 @Configuration
