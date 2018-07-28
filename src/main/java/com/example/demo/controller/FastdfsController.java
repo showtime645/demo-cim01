@@ -157,6 +157,11 @@ public class FastdfsController {
 		log.info("urls is {}", fdfsConfigurtion.getTrackerList());
 		
 	}
+	
+	@GetMapping("/testgit")
+	public String testGitUpdate() {
+		return "this is a test.";
+	}
 }
 
 @Configuration
