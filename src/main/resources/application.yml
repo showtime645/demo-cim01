@@ -1,0 +1,12 @@
+server:
+  port: 8080
+  
+fdfs:
+  soTimeout: 300
+  connectTimeout: 600
+  trackerList: 
+    - 192.168.207.229:22122
+  httpServer: 116.117.157.186:10028
+  pool:
+    max-total: 100
+    max-wait-millis: 600
